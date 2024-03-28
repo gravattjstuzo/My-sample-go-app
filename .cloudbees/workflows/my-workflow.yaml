@@ -5,8 +5,8 @@ on:
   push:
     branches:
       - "**"
-jobs:
-  ci-job:
+jobs: 
+ ci-job:
     steps:
       - uses: docker://alpine/git:latest
         run: |
